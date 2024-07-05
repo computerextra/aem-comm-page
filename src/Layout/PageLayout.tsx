@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import Header from "./Header";
 import NavigationMenu from "./NavigationMenu";
 
 export default function PageLayout({
@@ -9,9 +8,8 @@ export default function PageLayout({
 }) {
   return (
     <>
-      <Header />
       <NavigationMenu />
-      {children}
+      <div>{children}</div>
       <Footer />
     </>
   );

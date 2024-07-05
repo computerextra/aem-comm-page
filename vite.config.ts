@@ -10,7 +10,5 @@ export default defineConfig({
     cssMinify: true,
     chunkSizeWarningLimit: 1000,
   },
-  // Enable in Deployment of GH-Pages
-  base: "/aem-comm-page",
   plugins: [react(), chunkSplitPlugin()],
 });
